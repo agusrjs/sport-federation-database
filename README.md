@@ -1,4 +1,4 @@
-# Sports Federation Network
+# Sports Federation Database
 
 This project originates within a blind sports federation primarily dedicated to football. The main goal is to register and identify each individual, team, institution, or entity associated with federative competitions. Beyond this central objective, the project aims to address specific issues, including:
 
