@@ -21,7 +21,7 @@ This project originates within a blind sports federation primarily dedicated to 
 - **Unique Identification:**
   - Assignment of a unique ID to each player, coach, club, and federation entity.
 
-  - **Image Storage:**
+- **Image Storage:**
   - Appropriate nomenclature (ID) for storing profile images of individuals and club badges.
 
 - **Team lists:**
