@@ -1,5 +1,3 @@
 streamlit
-streamlit_navigation_bar
-os
-datetime
-mysql.connector
+streamlit-navigation-bar
+mysql-connector-python
