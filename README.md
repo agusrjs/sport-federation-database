@@ -122,15 +122,22 @@ The project has been organized into various SQL tables and views to facilitate t
 
   - **`entity_id`, `individual_id`, `club_id`:** Views for assigning a unique ID to entities, individuals, and clubs.
 
-## Contributions
+## Streamlit App
 
-If you wish to contribute or have suggestions for improvement, feel free to do so! Contributions are welcome and appreciated.
+This is a Streamlit web app for managing and displaying data related to a sport federation network. The app includes several features such as team management, player registration, league information, and more. It is built with a custom navigation bar, dynamic page routing, and integration with a MySQL database for inserting and retrieving data.
 
-## Author
+### Features
+- **Home**: Welcome page with basic information about the sport federation.
+- **Teams**: View and manage teams in the federation.
+- **Players**: View and register players.
+- **League**: Display information about ongoing and past leagues.
+- **Rules**: List and explain the rules for various sports.
+- **Registry**: Register new players and individuals into the database.
+- **Contact**: Information about how to contact the federation.
 
-- Agustín Germán Rojas
-- Email: agustingermanrojas@gmail.com
+The app interacts with a MySQL database to insert and store data. Specifically, it includes functions for inserting new individuals (players, staff, etc.) using stored procedures in the MySQL database.
 
-## License
-
-This script is open-source and free to use. Feel free to contribute and enhance its functionality.
+## Files
+- **app.py**: Main application file, handles Streamlit UI, page routing, and integration with the navigation bar.
+- **pages.py**: Contains functions that handle the display logic for each page (Home, Teams, Players, etc.).
+- **insert_registry.py**: Contains functions for inserting data into the MySQL database (e.g., inserting new players).
