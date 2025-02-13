@@ -1,0 +1,5 @@
+streamlit
+streamlit_navigation_bar
+os
+datetime
+mysql.connector
