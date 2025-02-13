@@ -1,4 +1,4 @@
-# Sports Federation Network
+# Sports Federation Database
 
 This project originates within a blind sports federation primarily dedicated to football. The main goal is to register and identify each individual, team, institution, or entity associated with federative competitions. Beyond this central objective, the project aims to address specific issues, including:
 
@@ -21,7 +21,7 @@ This project originates within a blind sports federation primarily dedicated to 
 - **Unique Identification:**
   - Assignment of a unique ID to each player, coach, club, and federation entity.
 
-  - **Image Storage:**
+- **Image Storage:**
   - Appropriate nomenclature (ID) for storing profile images of individuals and club badges.
 
 - **Team lists:**
