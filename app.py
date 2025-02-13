@@ -14,7 +14,7 @@ st.markdown("""
 
 pages = ["Home", "Teams", "Players", "League", "Rules", "Registry", "Contact"]
 parent_dir = os.path.dirname(os.path.abspath(__file__))
-logo_path = "https://raw.githubusercontent.com/agusrjs/sport-federation-database/ec12022be162b541c411392a9c6ceb6f97abd0ca/images/logo.svg"
+logo_path = os.path.join(parent_dir, "images", "logo.svg")
 urls = {}
 styles = {
     "nav": {
